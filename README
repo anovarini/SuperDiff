@@ -1,0 +1,22 @@
+=== What is it
+
+SuperDiff is a simple script that allows you to diff several files recursively,
+following a given pattern, present in two different directories.
+
+The idea came because we wanted to recap our work for a project that we
+detached times ago from the original repository, and that in the meantime it
+kept going on developed by its actual developers.
+At some point we wanted to gather all the modification we did and tried to send
+them hoping to be included as feature requests.
+But at that moment checking the amount of files we changed and comparing them
+to the original ones looked like a lot troublesome.
+
+=== How it works
+
+The script needs three parameters: two directories to check and a file pattern.
+
+For example, if you want to compare all java files present in directories
+A and B, run the command
+
+./superdiff.sh A B *.java
+
